@@ -64,10 +64,5 @@ After pushing, Hugging Face will **automatically build and deploy your app**. �
 ---
 
 ## **🔗 Links**  
-🔹 **Hugging Face Space**: [Your Hugging Face App](#)  
-🔹 **GitHub Repository**: [Your GitHub Repo](#)  
-```
+🔹 **Hugging Face Space**: https://huggingface.co/spaces/prince1612/my-blog-gen-ai 
 
----
-
-Let me know if you need any changes! 🚀😊
