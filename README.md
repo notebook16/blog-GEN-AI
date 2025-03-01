@@ -36,6 +36,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 Your app will be available at **http://localhost:8501** or another port.  
+![Screenshot 2025-03-01 222335](https://github.com/user-attachments/assets/f4de5b09-031e-49c6-9ce8-207483b2d6cd)
 
 ---
 
