@@ -1,3 +1,6 @@
+ 
+
+```md
 # 🦙 Llama-2-7B-Chat-GGML - Blog Generation AI  
 
 This project uses **Llama-2-7B-Chat-GGML** to generate AI-powered blogs based on user input.  
@@ -24,40 +27,47 @@ Run the following commands:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
+---
 
-3️⃣ Run the Application
+### **3️⃣ Run the Application**  
+```sh
 streamlit run app.py
-Your app will be available at http://localhost:8501 or some another port
+```
+Your app will be available at **http://localhost:8501** or another port.  
 
+---
 
+## **🚀 Deploying to Hugging Face**  
+You can also deploy this app on **Hugging Face Spaces** using **Streamlit + GPU**.  
 
-
-
-
-
-
-
-
-🚀 Deploying to Hugging Face
-You can also deploy this app on Hugging Face Spaces using Streamlit + GPU.
-
-1️⃣ Push Code to Hugging Face
+### **1️⃣ Push Code to Hugging Face**  
+```sh
 git init
 git add .
 git commit -m "Deploy Llama-2 Blog Gen AI"
 git branch -M main
 git remote add origin https://huggingface.co/spaces/YOUR-USERNAME/YOUR-SPACE-NAME
 git push -u origin main
+```
 
+---
 
-2️⃣ Authenticate with Access Token
-When asked for a username & password during git push, use:
+### **2️⃣ Authenticate with Access Token**  
+When asked for a **username & password** during `git push`, use:  
+- **Username** = Your Hugging Face username  
+- **Password** = Hugging Face **Access Token** (Generate at: [Hugging Face Tokens](https://huggingface.co/settings/tokens))  
 
-Username = Your Hugging Face username
-Password = Hugging Face Access Token (Generate at: Hugging Face Tokens)
-After pushing, Hugging Face will automatically build and deploy your app. 🚀
+After pushing, Hugging Face will **automatically build and deploy your app**. 🚀  
 
+---
 
+## **🔗 Links**  
+🔹 **Hugging Face Space**: [Your Hugging Face App](#)  
+🔹 **GitHub Repository**: [Your GitHub Repo](#)  
+```
 
+---
 
+Let me know if you need any changes! 🚀😊
