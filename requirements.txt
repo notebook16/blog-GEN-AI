@@ -1,0 +1,8 @@
+streamlit
+transformers
+torch
+sentencepiece
+langchain
+langchain-community
+ctransformers
+accelerate
